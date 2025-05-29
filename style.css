@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'tempo';
+    src: url('fontes/Base\ 02.ttf');
+}
+@font-face {
+    font-family: 'ano';
+    src: url('fontes/1942.ttf');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: #232529;
+    display: flex;
+}
+
+header{
+    background-color: #232529
+}
+
+.main {
+    display: flex;
+    margin: 40px;
+    position: relative;
+    left: 70rem;
+    font-size: 20px;
+    font-family: tempo;
+}
+.main :hover{
+      color:rgb(112, 25, 25) ;
+}
+
+a {
+    display: flex;
+    margin-left: 100px;
+    color: white;
+    text-decoration: none;
+}
+
+.titulo{
+    position: absolute;
+    top: 32%;
+    color: white;
+    left: 140px;
+    font-size: 55px;
+    font-family: tempo;
+    line-height: 1.9em;
+}
+
+#b{
+    color: #25470c;
+}
+
+.texto{
+    color: white;
+    position: absolute;
+    top: 55%;
+    max-width: 595px;
+    left: 650px;
+    text-align: justify;
+    font-family: tempo;
+    text-shadow: 2px 2px solid black;
+}
+
+.ano{
+    color: rgb(112, 25, 25);
+    position: absolute;
+    top: 56%;
+    left: 140px;
+    font-size: 55px;
+    font-family: ano;
+}
+
+#img1 {
+    position: absolute;
+    top: 3%;
+    left: 50px;
+    opacity: 40%;
+    width: 1800px;     
+}
+
+#img2{
+    position: absolute;
+    top: 125%;
+    left: 200px;
+    width: 500px; 
+}
+
+.e{
+    position: absolute;
+    right: 190px;
+    top: 30%;
+}
+
+.l{
+    color: white;
+    position: absolute;
+    left: 80px;
+    top: 5%;
+}
+
+.inicio > hr{
+    width: 1300px;
+    position: relative;
+    right: 200px;
+    top: 49rem;
+    margin: 0;
+    background-color: rgb(112, 25, 25);
+    
+}
